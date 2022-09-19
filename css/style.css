@@ -1,0 +1,640 @@
+:root{
+  --orange:#ffa500;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "roboto";
+  user-select: none;
+}
+html{
+  scroll-behavior: smooth;
+  
+  
+}
+
+::-webkit-scrollbar {
+  width:15px;
+}
+::-webkit-scrollbar-track {
+  background-color: white !important;
+  
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--orange) !important;
+  
+}
+
+/* start header */
+.navbar{
+  background-color: black;
+  z-index: 10000;
+  align-items: center;
+  
+}
+.nav{
+  align-items: center;
+  width: 150px;
+  
+}
+
+
+.nav-item{
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.nav-link{
+  padding: 5px 15px !important;
+  border-radius: 10px;
+  color: white!important;
+  transition: .3s !important;
+  text-align: center;
+  text-transform: capitalize;
+  
+}
+
+.nav-link:hover,.active{
+  
+  color: white!important;
+  background-color: var(--orange);
+  
+}
+.navbar-nav {
+  margin-right: 8%;
+  
+}
+.search{
+  position: relative;
+  color: white;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: .3s;
+}
+.search:hover{
+  
+  color: var(--orange);
+}
+.search svg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navbar .navbar-toggler {
+  color: var(--orange);
+  font-size: 25px;
+  border-color: transparent;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: transparent;
+}
+
+
+
+
+
+.overlay{
+  
+  position: fixed;
+  z-index: 10000;
+  min-height: 100vh;
+  width: 100%;
+  background: rgba(0,0,0,.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.cancel{
+  position: fixed;
+  top: 50px;
+  left: 95%;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+}
+.overlay form{
+  display: block;
+  background-color: white;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 35%;
+}
+.overlay form h1{
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 18px;
+}
+.overlay form input[type="email"],.overlay form input[type="password"]{
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 5px 10px;
+  outline-color: var(--orange);
+}
+.button{
+  background-color: var(--orange);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.overlay p{
+  margin-top: 10px;
+}
+.overlay p a{
+  color: var(--orange);
+  text-decoration: none;
+}
+
+/* finish header */
+
+
+
+/* start home */
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  z-index: 0;
+}
+.video video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+.home-text{
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.home-text p{
+  font-size: 1.5em;
+}
+.rating{
+  color: yellow;
+  font-size: 1.5em;
+}
+.change{
+  padding: 10px;
+  border-radius: 5rem;
+  background: rgba(0,0,0,.7);
+  position: relative;
+  top: 3rem;
+  width: fit-content;
+  margin: auto;
+}
+.change .circle{
+  height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+.circle.active{
+  background-color: var(--orange);
+}
+
+/* finish home */
+
+
+/* start about */
+.about-text{
+  margin-top: 20%;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* finish about */
+
+
+/* start book */
+.main-head{
+  width: 100%;
+}
+.main-head .word{
+  font-size: 2.5em;
+  background: rgba(255, 166, 0, 0.205);
+  color: var(--orange);
+  border-radius: 6px;
+  padding: 3px 16px;
+  margin-right: 5px;
+}
+.space{
+  font-size: 2.5em;
+  background:none;
+  padding: 3px 16px;
+}
+.book form{
+  margin-top: 25px;
+  display: block;
+  padding: 30px 20px 20px ;
+  box-shadow: 5px 10px 18px #888888;
+}
+.book label{
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.book input{
+  padding: 5px 10px;
+  width: 100%;
+}
+.button1{
+  background-color: var(--orange);
+  color: white;
+  width: fit-content;
+  padding: 5px 15px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* finish book */
+
+
+/* start services */
+.services-cont{
+  margin: 25px 0;
+  padding: 10px 20px;
+  transition: .3s;
+  text-align: center;
+}
+.services-cont:hover{
+  border-radius: 6px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.services-cont svg{
+  font-size: 3em;
+  display: block;
+  margin: auto;
+}
+
+/* finish services */
+
+
+
+/* start our-hotel */
+.hotel-cont{
+  width: 70%;
+  margin: 20px auto;
+  padding: 30px;
+  border: 5px solid #8d9298;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: transparent;
+}
+.hotel-text h3{
+  margin-bottom: 10px;
+}
+.hotel-video{
+  position: relative;
+}
+.hotel-video img{
+  width: 100% !important;
+  
+}
+.hotel-video video{
+  position: absolute;
+  width: 99%;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+}
+
+/* finish our-hotel */
+
+
+
+/* start rooms */
+.room-cont{
+  background-color: black;
+  color: white;
+  padding: 30px 20px;
+  margin: 10px ;
+  border-radius: 10px;
+  transition: .3s;
+}
+.room-cont:hover{
+  transform: scale(1.05);
+}
+.room-cont h3{
+  margin: 10px 0;
+}
+.room-cont .button1{
+  margin: auto;
+}
+
+
+/* finish rooms */
+
+/* start events */
+.contain{
+  background-color: #222;
+  padding: 50px 40px;
+}
+.contain h2{
+  color: var(--orange);
+  background: rgba(255, 166, 0, 0.205);
+  border-radius: 6px;
+  padding: 3px 5px;
+  text-align: center;
+  margin: 30px auto 20px;
+  width: fit-content;
+}
+
+/* finish events */
+
+
+/* start food */
+
+.food-text{
+  margin: 25% 0 50px;
+}
+.food-image{
+  animation: move infinite ease-in-out alternate 1.5s;
+}
+
+@keyframes move{
+  0%{
+    transform: translateY(-50px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+/* finish food */
+
+
+
+/* start Speciality */
+.Speciality-cont{
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+  border: 0.1rem solid rgba(0,0,0,.3);
+  cursor: pointer;
+  border-radius: 6px;
+}
+.Speciality-cont .spec-image{
+  border-radius: 6px;
+}
+.Speciality-cont .spec-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  border-radius: 6px;
+  transition: .3s;
+}
+.spec-cont{
+  text-align: center;
+    background: rgb(26, 25, 25);
+    padding: 2rem;
+}
+.spec-cont h3{
+  font-size: 2.5rem;
+  color: rgb(252, 244, 244);
+  margin-top: 25px;
+}
+.spec-cont p{
+  font-size: 1.6rem;
+  color: #666;
+  padding: 10px 0;
+}
+
+
+/* finish Speciality */
+
+
+/* start popular */
+.button1{
+  transition: .3s;
+  border: 2px solid var(--orange);
+}
+.button1:hover{
+  
+  color: var(--orange);
+  background-color: transparent;
+}
+.popular-cont{
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 5px 10px 18px #888888;
+  cursor: pointer;
+
+}
+.popular-cont h3{
+  margin-top: 10px;
+}
+.popular-cont img{
+  height: 20rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.popular-cont .button1{
+  margin: 15px auto;
+}
+
+
+
+/* finish popular */
+
+
+
+/* start works */
+
+.works-image{
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 18px #888888;
+  position: relative;
+}
+.works-image img{
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+
+
+
+/* finish works */
+
+
+
+/* start gallery */
+
+.gallery-cont{
+  padding: 15px 20px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.gallery-image img{
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* finish gallery */
+
+
+
+/* start review */
+
+.review .container{
+  overflow: hidden;
+}
+
+.review .review-slider{
+  padding-bottom: 2rem;
+}
+
+.review .box{
+  cursor: grab;
+  padding:2rem;
+  text-align: center;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: .5rem;
+}
+
+.review .box img{
+  height:10rem;
+  width:10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.review .box h3{
+  color:#333;
+  font-size: 2rem;
+}
+
+.review .box p{
+  color:#666;
+  padding:1rem 0;
+}
+
+.review .box .stars svg{
+  color:var(--orange);
+  font-size: 1.5rem;
+}
+
+
+/* finish review */
+
+
+
+/* start contact */
+
+
+.contact-form{
+  margin-top: 25px;
+  display: block;
+  padding: 50px 20px 20px ;
+  box-shadow: 5px 10px 18px #888888;
+}
+.contact-form .button1{
+  font-size: 1.2em;
+}
+.contact-form input,textarea{
+  display: inline-block;
+  margin: 10px 5px;
+  width: 45%;
+  padding: 10px 15px;
+  border-color: transparent;
+  outline: none;
+  background-color:#e4e1e1;
+  border-radius: 6px;
+}
+textarea{
+  display: block;
+  width: 95%;
+}
+
+
+
+/* finish contact */
+
+
+
+
+/* start footer */
+footer{
+  margin-top: 20px;
+  background-color: #333;
+  padding: 20px ;
+}
+.foot-cont{
+  color: white;
+  font-size: 1.2em;
+  margin: auto;
+  width: fit-content;
+}
+.foot-cont span{
+  color: var(--orange);
+}
+
+/* finish footer */
+
+
+
+
+
+
+@media (max-width:767px) {
+  .main-head .word{
+    font-size: 1.5em;
+    padding: 3px 10px;
+  }
+}
+@media (max-width:555px)  {
+  .main-head .word{
+    font-size: 1.5em;
+    padding: 3px 8px;
+  }
+}
+@media (max-width:390px)  {
+  .main-head .word{
+    font-size: 1em;
+    padding: 3px 6px;
+  }
+  .hotel-text p{
+    font-size: 12px;
+  }
+}

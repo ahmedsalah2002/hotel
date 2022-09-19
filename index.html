@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images1/abc.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne+Tactile&family=Work+Sans:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200&display=swap" rel="stylesheet">
+   
+<title>Hotel</title>
+</head>
+<body>
+  <!-- start header -->
+    <nav class="navbar fixed-top navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand nav" href="#">
+            <img src="images/lo5.png" class="img-fluid" alt="" srcset="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link  active" aria-current="page" href="#home">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#book">book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#services">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#rooms">rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#food">food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#gallery">gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#review">review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#contact">contact</a>
+            </li>
+              </ul>
+              <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fas fa-search"></i>
+              </div>
+              <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fas fa-user"></i>
+              </div>
+          </div>
+        </div>
+      </nav>
+      <div class="overlay">
+      <div class="cancel">
+        <i class="fas fa-times"></i>
+      </div>
+        <form >
+          <h1>login</h1>
+          <input type="email" name="email" id="email" placeholder="enter your email">
+          <input type="password" name="passwoed" id="password" placeholder="enter your password">
+          <div class="button">Login Now</div>
+          <input type="checkbox" name="remember" id="me"> <label for="me">Remember me</label>
+          <p class="text-capitalize">forget ypur password? <a href="#">Click Here</a></p> 
+          <p class="text-capitalize">don't have and account? <a href="#">register now</a></p> 
+        </form>
+      </div>
+  <!-- finish header -->
+
+  <!-- start landing -->
+  <section class="home" id="home">
+    <div class="video">
+      <video src="images/vid-1.mp4" loop autoplay muted></video>
+    </div>
+    <div class="container">
+      <div class="home-text">
+        <h1 class="text-uppercase">welcome the hotel</h1>
+        <p><i class="fas fa-map-marker-alt"></i> Xyz,India</p>
+        <p> <i class="fas fa-phone-alt"></i>  9748876857</p>
+        <div class="rating text-uppercase">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          540 REVIEWS
+        </div>
+      </div>
+      <div class="change">
+        <div class="circle active" data-src="../images/vid-1.mp4"></div>
+        <div class="circle" data-src="../images/vid-2.mp4"></div>
+      </div>
+
+    </div>
+  </section>
+  <!-- finish landing -->
+<!-- start about -->
+  <div class="about mt-5 mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="about-text">
+            <h3 class="text-center mb-5">About Us</h3>
+            <p>Centrally Located 5 Star Hotel & Resort Near Xyz For Leisure Travel. Experience Luxury At Hotel, One Of The Finest 5 Star Hotel.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="about-image">
+            <img src="images/bora.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- finish about -->
+
+<!-- start book -->
+<section class="book mb-5" id="book">
+  <div class="container">
+    <div class="main-head text-center">
+      <span class="text-uppercase word">b</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">k</span>
+      <span class="space"></span>
+      <span class="text-uppercase word">n</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">w</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="book-image">
+          <img src="images/logo2.gif" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <form >
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Full Name">
+          <label for="number">How Many</label>
+          <input type="number" name="number" id="number" placeholder="Number Of Guests">
+          <label for="Arrivals">Arrivals</label>
+          <input type="date" name="Arrivals" id="Arrivals">
+          <label for="Leaving">Leaving</label>
+          <input type="date" name="Leaving" id="Leaving">
+          <div class="button1 text-capitalize">book now</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- finish book -->
+<!-- start services -->
+<section class="services mb-5" id="services">
+  <div class="container">
+    <div class="main-head text-center">
+      <span class="text-uppercase word">s</span>
+      <span class="text-uppercase word">e</span>
+      <span class="text-uppercase word">r</span>
+      <span class="text-uppercase word">v</span>
+      <span class="text-uppercase word">i</span>
+      <span class="text-uppercase word">c</span>
+      <span class="text-uppercase word">e</span>
+      <span class="text-uppercase word">s</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="services-cont">
+          <i class="fas fa-wifi" style="color: red;"></i>
+          <h2 class="mt-4">Free Internet Access</h2>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="services-cont">
+          <i class="fas fa-concierge-bell" style="color: rgb(160, 136, 91);"></i>
+          <h2 class="mt-4">Room Service</h2>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="services-cont">
+          <i class="fas fa-walking" style="color: rgb(51, 69, 73);"></i>
+          <h2 class="mt-4">Fitness Center</h2>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="services-cont">
+          <i class="fas fa-broom" style="color: rgb(115, 122, 74);"></i>
+          <h2 class="mt-4">House Keeping</h2>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="services-cont">
+          <i class="fas fa-spa" style="color: rgb(21, 255, 0);"></i>
+          <h2 class="mt-4">Spa</h2>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="services-cont">
+          <i class="fas fa-swimmer" style="color: rgb(0, 255, 255);"></i>
+          <h2 class="mt-4">Pool</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- finish services -->
+
+<!-- start our-hotel -->
+<div class="our-hotel mb-5">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">u</span>
+      <span class="text-uppercase word">r</span>
+      <span class="space"></span>
+      <span class="text-uppercase word">h</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">t</span>
+      <span class="text-uppercase word">e</span>
+      <span class="text-uppercase word">l</span>
+    </div>
+    <div class="hotel-cont">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hotel-text mb-4">
+            <h3>Yoga Training</h3>
+            <p>The Word “Yoga” Essentially Means, “That Which Brings You To Reality”. Literally, It Means “Union.”
+                Union Means It Brings You To The Ultimate Reality, 
+                Where Individual Manifestations Of Life Are Surface Bubbles In The Process Of Creation.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hotel-video">
+            <img src="images/tv.png" alt="" class="imgfluid">
+            <video src="images/Pexels Videos 2790143.mp4" loop muted autoplay></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hotel-cont">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hotel-video">
+            <img src="images/tv.png" alt="" class="imgfluid">
+            <video src="images/gym2.mp4" loop muted autoplay></video>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hotel-text mb-4">
+            <h3>Fitness Centre</h3>
+            <p>This 10,000 Sq Ft. Wellness Centre On The Premises Of The Hotel Situated In Kolkata,
+                Comprises A 2,200 Sq Ft Fully Equipped Gymnasium Featuring The Latest Cardiovascular Equipment,
+                As Well As Separate Spas For Men And Women, With A Steam Room, A Sauna, A Whirlpool Bath And A Chill Pool.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hotel-cont">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hotel-text mb-4">
+            <h3>Spa</h3>
+            <p>At Club Prana Explore Our Wide Range Of Relaxing Services Including Massages, Body Wraps, And Facials. 
+              This Urban Oasis Will Reduce Your Stress In The Midst Of The Bustling City.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hotel-video">
+            <img src="images/tv.png" alt="" class="imgfluid">
+            <video src="images/spa.mp4" loop muted autoplay></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- finish our-hotel -->
+
+<!-- start rooms -->
+<section class="rooms mb-5" id="rooms">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">r</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">m</span>
+      <span class="text-uppercase word">s</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="room-cont text-center">
+          <div class="room-image">
+            <img src="images/king.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>King Bed</h3>
+          <p class="text-white-50">Relax In A Spacious 36-Sqmt Room In High Floors Overlooking Pool Or City Features Malaysian Teak Floors,
+              Separate Work Area, Italian Marble Bath With Rain Shower.</p>
+              <div class="button1 text-capitalize">book now</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="room-cont text-center">
+          <div class="room-image">
+            <img src="images/Diplomatic Suite.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>Diplomatic Suite</h3>
+          <p class="text-white-50">Floor-To-Ceiling Windows And A Spacious Terrace With Glass Doors Offer Spectacular Views Of Kolkata From A 120 Sqmt Suite. Contemporary Interiors Include Living.</p>
+          <div class="button1 text-capitalize">book now</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="room-cont text-center">
+          <div class="room-image">
+            <img src="images/suite.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>Suite King</h3>
+          <p class="text-white-50">Relax In A 75 Sq.Mt Suite That Offers Spectacular Pool View. Well-Appointed Malaysian Teak Floors And Textured Walls Complementing Living Room.</p>
+          <div class="button1 text-capitalize">book now</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="room-cont text-center">
+          <div class="room-image">
+            <img src="images/Presidential Suite.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>Presidential Suite</h3>
+          <p class="text-white-50">Luxurious 216 Sqmt Top-Floor Suite With Pool Views Features Leather-Paneled Study, Living And Dining Areas With Handmade Artwork.</p>
+          <div class="button1 text-capitalize">book now</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- finish rooms -->
+
+<!-- start events -->
+<div class="events  mb-5">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">e</span>
+      <span class="text-uppercase word">v</span>
+      <span class="text-uppercase word">e</span>
+      <span class="text-uppercase word">n</span>
+      <span class="text-uppercase word">t</span>
+      <span class="text-uppercase word">s</span>
+    </div>
+    <div class="contain">
+      <div class="row mb-5">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="event-image">
+            <img src="images/Screenshot.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h2>Weddings</h2>
+          <p class="text-white-50">Hotel Is Slated To Be The Preferred Destination For An Intimate Or A Lavish Wedding. Whether You Wish For A Small And Intimate Ceremony Or An Extravagant Setting, We Will Make Your Event Memorable And Most Importantly, One-Of-A-Kind. Our Team Of Specialists Work Closely With You And Your Families To Develop A Wedding That Is Reflecting Your Personality And Individual Taste.</p>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h2>Meetings</h2>
+          <p class="text-white-50">The Hotel Brand Has Long Enjoyed A Well-Earned Reputation For Excellence In The Field Of Banqueting And Catering. A Professional And Attentive Team Will Oversee That Every Event Is Successful And That Event Needs Meet Guests’ Satisfaction.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="event-image">
+            <img src="images/Screenshot1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- finish events -->
+
+<!-- start food -->
+
+<section class="food mb-5" id="food">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">f</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">d</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="food-text">
+          <h1 class="mb-5">Food Made With Love</h1>
+        <div class="button1">Order Now</div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="food-image">
+          <img src="images1/home-img.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- finish food -->
+
+<!-- start Speciality -->
+<div class="Speciality mt-5 mb-5">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">s</span>
+      <span class="text-uppercase word">p</span>
+      <span class="text-uppercase word">e</span>
+      <span class="text-uppercase word">c</span>
+      <span class="text-uppercase word">i</span>
+      <span class="text-uppercase word">a</span>
+      <span class="text-uppercase word">l</span>
+      <span class="text-uppercase word">i</span>
+      <span class="text-uppercase word">t</span>
+      <span class="text-uppercase word">y</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="Speciality-cont mb-5">
+            <div class="spec-image">
+              <img src="images1/s-img-1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="spec-cont">
+              <img src="images1/s-1.png" alt="" >
+              <h3>Tasty Burger</h3>
+              <p></p>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="Speciality-cont mb-5">
+            <div class="spec-image">
+              <img src="images1/s-img-5.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="spec-cont">
+              <img src="images1/s-5.png" alt="" >
+              <h3>Tasty Sweets</h3>
+              <p></p>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="Speciality-cont mb-5">
+            <div class="spec-image">
+              <img src="images1/s-img-2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="spec-cont">
+              <img src="images1/s-2.png" alt="" >
+              <h3>Tasty Pizza</h3>
+              <p></p>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="Speciality-cont mb-5">
+            <div class="spec-image">
+              <img src="images1/s-img-3.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="spec-cont">
+              <img src="images1/s-3.png" alt="" >
+              <h3>Cold Ice-cream</h3>
+              <p></p>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="Speciality-cont mb-5">
+            <div class="spec-image">
+              <img src="images1/s-img-4.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="spec-cont">
+              <img src="images1/s-4.png" alt="" >
+              <h3>Cold Drinks</h3>
+              <p></p>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="Speciality-cont mb-5">
+            <div class="spec-image">
+              <img src="images1/s-img-6.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="spec-cont">
+              <img src="images1/s-6.png" alt="" >
+              <h3>Healty Breakfast</h3>
+              <p></p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- finish Speciality -->
+
+
+<!-- start popular -->
+<div class="popular mb-5">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">p</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">p</span>
+      <span class="text-uppercase word">u</span>
+      <span class="text-uppercase word">l</span>
+      <span class="text-uppercase word">a</span>
+      <span class="text-uppercase word">r</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="popular-cont text-center mb-5">
+          <div class="popular-image">
+            <img src="images1/p-1.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>Tasty Burger</h3>
+          <div class="rating text-uppercase">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="button1">Order Now</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="popular-cont text-center mb-5">
+          <div class="popular-image">
+            <img src="images1/p-2.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>Tasty Cakes</h3>
+          <div class="rating text-uppercase">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="button1">Order Now</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="popular-cont text-center mb-5">
+          <div class="popular-image">
+            <img src="images1/p-3.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>Tasty Sweets</h3>
+          <div class="rating text-uppercase">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="button1">Order Now</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="popular-cont text-center mb-5">
+          <div class="popular-image">
+            <img src="images1/p-4.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>Tasty Cupcakes</h3>
+          <div class="rating text-uppercase">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="button1">Order Now</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="popular-cont text-center mb-5">
+          <div class="popular-image">
+            <img src="images1/p-5.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>Cold Drinks</h3>
+          <div class="rating text-uppercase">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="button1">Order Now</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="popular-cont text-center mb-5">
+          <div class="popular-image">
+            <img src="images1/p-6.jpg" alt="" class="img-fluid">
+          </div>
+          <h3>Cold Ice-Cream</h3>
+          <div class="rating text-uppercase">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="button1">Order Now</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- finish popular -->
+
+
+
+<!-- start works -->
+<div class="works mb-5">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">w</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">r</span>
+      <span class="text-uppercase word">k</span>
+      <span class="text-uppercase word">s</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="works-cont text-center mb-4">
+          <div class="works-image">
+            <img src="images1/step-1.jpg" alt="" class="img-fluid">
+          </div>
+          <h3 class="mt-4">
+            Choose Your <br> Favorite Food
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="works-cont text-center mb-4">
+          <div class="works-image">
+            <img src="images1/step-2.jpg" alt="" class="img-fluid">
+          </div>
+          <h3 class="mt-4">
+            Free And Fast <br> Delivery
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="works-cont text-center mb-4">
+          <div class="works-image">
+            <img src="images1/step-3.jpg" alt="" class="img-fluid">
+          </div>
+          <h3 class="mt-4">
+            Easy Payments <br> Methods
+          </h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="works-cont text-center mb-4">
+          <div class="works-image">
+            <img src="images1/step-4.jpg" alt="" class="img-fluid">
+          </div>
+          <h3 class="mt-4">
+            And Finally, Enjoy <br> Your Food
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- finish works -->
+
+
+<!-- start gallery -->
+
+
+<section class="gallery mb-5" id="gallery">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">g</span>
+      <span class="text-uppercase word">a</span>
+      <span class="text-uppercase word">l</span>
+      <span class="text-uppercase word">l</span>
+      <span class="text-uppercase word">e</span>
+      <span class="text-uppercase word">r</span>
+      <span class="text-uppercase word">y</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="gallery-cont mb-5">
+          <div class="gallery-image">
+            <img src="images1/g-1.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="gallery-cont mb-5">
+          <div class="gallery-image">
+            <img src="images1/g-2.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="gallery-cont mb-5">
+          <div class="gallery-image">
+            <img src="images1/g-3.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="gallery-cont mb-5">
+          <div class="gallery-image">
+            <img src="images1/g-4.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="gallery-cont mb-5">
+          <div class="gallery-image">
+            <img src="images1/g-5.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="gallery-cont mb-5">
+          <div class="gallery-image">
+            <img src="images1/g-6.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="gallery-cont mb-5">
+          <div class="gallery-image">
+            <img src="images1/g-7.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="gallery-cont mb-5">
+          <div class="gallery-image">
+            <img src="images1/g-8.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- finish gallery -->
+
+<!-- start review -->
+<section class="review mb-5" id="review">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">r</span>
+      <span class="text-uppercase word">e</span>
+      <span class="text-uppercase word">v</span>
+      <span class="text-uppercase word">i</span>
+      <span class="text-uppercase word">e</span>
+      <span class="text-uppercase word">w</span>
+    </div>
+    <div class="swiper-container review-slider">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/pic2.jpg" alt="">
+                  <h3>kausturi roy chowdhury</h3>
+                  <p>It was great experience for me and all the services in hotel was accurate. Moreover the plantation was also clean. Not only this, rooms and washrooms were also good in cleanliness. Thank you so much for serving each and every service with proper arrangements.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/pic1.png" alt="">
+                  <h3>Saikat Dhar</h3>
+                  <p>It was great experience for me and all the services in hotel was accurate. Moreover the plantation was also clean. Not only this, rooms and washrooms were also good in cleanliness. Thank you so much for serving each and every service with proper arrangements.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/pic3.jpg" alt="">
+                  <h3>subrata paul</h3>
+                  <p>It was great experience for me and all the services in hotel was accurate. Moreover the plantation was also clean. Not only this, rooms and washrooms were also good in cleanliness. Thank you so much for serving each and every service with proper arrangements.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/pic4.jpg" alt="">
+                  <h3>Atanu Paul</h3>
+                  <p>It was great experience for me and all the services in hotel was accurate. Moreover the plantation was also clean. Not only this, rooms and washrooms were also good in cleanliness. Thank you so much for serving each and every service with proper arrangements.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/pic5.jpg" alt="">
+                  <h3>Ayan Nag</h3>
+                  <p>It was great experience for me and all the services in hotel was accurate. Moreover the plantation was also clean. Not only this, rooms and washrooms were also good in cleanliness. Thank you so much for serving each and every service with proper arrangements.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/pic6.jpg" alt="">
+                  <h3>Koushik Pahari</h3>
+                  <p>It was great experience for me and all the services in hotel was accurate. Moreover the plantation was also clean. Not only this, rooms and washrooms were also good in cleanliness. Thank you so much for serving each and every service with proper arrangements.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+
+</section>
+
+<!-- finish review -->
+
+
+<!-- start contact -->
+<section class="contact mb-5" id="contact">
+  <div class="container">
+    <div class="main-head text-center mb-5">
+      <span class="text-uppercase word">c</span>
+      <span class="text-uppercase word">o</span>
+      <span class="text-uppercase word">n</span>
+      <span class="text-uppercase word">t</span>
+      <span class="text-uppercase word">a</span>
+      <span class="text-uppercase word">c</span>
+      <span class="text-uppercase word">t</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="contact-image">
+          <img src="images/contact-img.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <form  class="contact-form">
+          <input type="text" placeholder="name">
+          <input type="email" name="email" id="email" placeholder="email">
+          <input type="number" name="number" id="number" placeholder="number">
+          <input type="text" name="subject" id="subject" placeholder="subject">
+          <textarea name="message" id="message" placeholder="message" cols="30" rows="8"></textarea>
+          <div class="button1">Send Message</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- finish contact -->
+
+
+
+<!-- start footer -->
+
+
+<footer>
+  <div class="container">
+    <div class="foot-cont text-capitalize">
+      created by <span>ahmed salah</span> &copy; 2022
+    </div>
+    
+  </div>
+</footer>
+
+
+
+<!-- finish footer -->
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
