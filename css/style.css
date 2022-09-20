@@ -344,6 +344,9 @@ html{
 .room-cont:hover{
   transform: scale(1.05);
 }
+.room-image img{
+  height: 12em;
+}
 .room-cont h3{
   margin: 10px 0;
 }
@@ -402,6 +405,7 @@ html{
   border: 0.1rem solid rgba(0,0,0,.3);
   cursor: pointer;
   border-radius: 6px;
+  height: 15em;
 }
 .Speciality-cont .spec-image{
   border-radius: 6px;
@@ -420,6 +424,7 @@ html{
   text-align: center;
     background: rgb(26, 25, 25);
     padding: 2rem;
+    height: 100%;
 }
 .spec-cont h3{
   font-size: 2.5rem;
