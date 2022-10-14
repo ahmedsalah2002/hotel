@@ -33,6 +33,7 @@ html{
   background-color: black;
   z-index: 10000;
   align-items: center;
+  padding: 0 !important;
   
 }
 .nav{
@@ -252,7 +253,7 @@ html{
   margin-top: 25px;
   display: block;
   padding: 30px 20px 20px ;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .book label{
   display: block;
@@ -287,7 +288,7 @@ html{
 }
 .services-cont:hover{
   border-radius: 6px;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .services-cont svg{
   font-size: 3em;
@@ -454,7 +455,7 @@ html{
 .popular-cont{
   padding: 15px 20px;
   border-radius: 6px;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
 
 }
@@ -484,7 +485,7 @@ html{
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   position: relative;
 }
 .works-image img{
@@ -507,7 +508,7 @@ html{
 
 .gallery-cont{
   padding: 15px 20px;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .gallery-image img{
   height: 12rem;
@@ -531,9 +532,10 @@ html{
 
 .review .box{
   cursor: grab;
+  height: 553px;
   padding:2rem;
   text-align: center;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: .5rem;
 }
 
@@ -572,7 +574,7 @@ html{
   margin-top: 25px;
   display: block;
   padding: 50px 20px 20px ;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .contact-form .button1{
   font-size: 1.2em;
